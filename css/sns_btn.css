@@ -1,0 +1,26 @@
+.sns_btn {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  align-items: center;
+}
+
+.sns_btn button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+
+.sns_btn button a {
+  color: white;
+}
+
+.sns_btn button a:visited {
+  color: white;
+}
+
+.sns_btn button:hover {
+  cursor: pointer;
+}

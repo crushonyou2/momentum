@@ -1,0 +1,33 @@
+@import "background.css";
+@import "clock.css";
+@import "weather.css";
+@import "todo.css";
+@import "greeting.css";
+@import "sns_btn.css";
+
+@import "reset.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+}
+
+#quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-size: 12px;
+  opacity: 0.8;
+}
