@@ -1,4 +1,6 @@
-const API_KEY = "18639ddf7c7963a03b4fcd7a0543e103";
+// OpenWeatherMap API 키. https://openweathermap.org/api 에서 무료로 발급받아 넣는다.
+// 클라이언트 전용 정적 페이지라 브라우저에 노출되므로, 사용량 제한이 걸린 무료 키만 사용한다.
+const API_KEY = "YOUR_OPENWEATHERMAP_API_KEY";
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
